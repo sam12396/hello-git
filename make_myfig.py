@@ -9,5 +9,6 @@ y= x**2
 plt.figure()
 
 plt.plot(x,y)
-
+plt.ylabel('widgets')
+plt.xlabel('time')
 plt.savefig('myfig.png')
